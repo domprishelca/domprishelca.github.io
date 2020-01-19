@@ -1,0 +1,134 @@
+@font-face{
+	font-family: 'SegoeWP';
+	src: url('../fonts/SegoeWP.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'SegoeWPN';
+	src: url('../fonts/SegoeWPN.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: SegoeWPN;
+}
+
+.header {
+    padding-top: 23px;
+}
+
+.logo {
+    /* margin-bottom: 23px; */
+}
+
+.menu__nav ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu__item {
+    font-family: SegoeWPN;
+}
+.menu__item a {
+    display: block;
+    font-size: 20px;
+    color: rgb(108, 108, 108);
+    padding: 18px 3px;
+    margin: 0px 18px;
+}
+.menu__item a:hover {
+    box-shadow: rgb(80, 148, 242) 0px -3px 0px 0px inset;
+    text-decoration: none;
+}
+
+.firstscreen {
+    padding: 40px 0px 20px;
+    background: url(../img/bg.jpg) center bottom / cover;
+    background-position: center bottom;
+}
+
+.offer {
+    font-family: SegoeWP;
+}
+.offer__title {
+    color: white;
+    font-size: 42px;
+}
+.offer__text {
+    font-size: 26px;
+    line-height: 1.7em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.galka {
+    margin-right: 5px;
+}
+.sign-up {
+    color: white;
+    font-size: 22px;
+    background-color: rgb(80, 148, 242);
+    margin-left: 10px;
+    padding: 4px 10px 8px;
+}
+.sign-up:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.features {
+    margin-top: 30px;
+}
+.feature__block {
+    margin-top: 30px;
+}
+.feature__title {
+    color: rgb(80, 148, 242);
+    font-size: 20px;
+}
+.feature__text {
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+}
+
+.cart {
+    margin-top: 60px;
+}
+.cart__title {
+    font-size: 42px;
+    color: rgb(111, 113, 115);
+    text-align: center;
+}
+.product {
+    margin-top: 20px;
+}
+
+.offer2__title {
+    font-size: 26px;
+    color: rgb(111, 113, 115);
+    margin-bottom: 18px;
+}
+.offer2__text {
+    font-size: 15px;
+    color: rgb(144, 144, 144);
+    line-height: 2.3em;
+}
+
+.footer__hr {
+    margin: 45px 0px 30px;
+}
+
+footer {
+    margin-bottom: 25px;
+}
+
+.copyright {
+    color: rgb(144, 144, 144);
+    font-size: 15px;
+    width: 245pt;
+    text-align: center;
+    margin: auto;
+}
