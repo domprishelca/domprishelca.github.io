@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+     <link rel="shortcut icon" href="img/favicon.png" type="img/png">
+  </head>
     <meta charset="utf-8">
     <meta name="veiwport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimal-scale=1.0">
@@ -16,38 +18,41 @@
     <header id="header" class="header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <img src="img/logo.png" alt="Prechu" class="logo">
           </div>
-          <div class="col-lg-5 ml-auto align-self-end">
+          <div class="col-lg-5 d-sm-none d-lg-block  ml-auto align-self-end">
             <nav class="menu__nav">
               <ul class="menu d-flex justify-content-center">
                 <li class="menu__item">
                   <a href="#1">Home</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#2">Products</a>
+                  <a href="#features">Products</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#3">Services</a>
+                  <a href="#cart">Services</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#4">Contact</a>
+                  <a href="#footer">Contact</a>
                 </li>
               </ul>
             </nav>
           </div>
+          <div class="col-sm-2 d-lg-none ml-auto">
+            <img src="img/sandwich.jpg" alt="sandwich" class="sandwich">
+          </div>
         </div>
       </div>
-      <div class="container-fluid firstscreen">
+      <div id="1" class="container-fluid firstscreen">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-lg-6" style="text-align: center">
+                <div class="col-lg-6 col-sm-5" style="text-align: center">
                   <img src="img/iphone.png" class="iphone" alt="iphone">
                 </div>
-                <div class="col-lg-6 align-self-center">
+                <div class="col-lg-6 col-sm-7 align-self-lg-center">
                   <div class="offer">
                     <h1 class="offer__title">
                       Lorem  Ipsum is simply
@@ -55,7 +60,7 @@
                     <p class="offer__text">
                         dummy text of the<br> printing & typesetting
                     </p>
-                    <a href="#" class="sign-up">
+                    <a href="form.html" class="sign-up">
                       <img src="img/galka.png" class="galka" alt="galka">
                       Sign up now
                     </a>
@@ -63,27 +68,27 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
               <div class="row">
-                <div class="col-lg-6" style="text-align: center">
+                <div class="col-lg-6 col-sm-5" style="text-align: center">
                   <img src="img/iphone.png" class="iphone" alt="iphone">
                 </div>
-                <div class="col-lg-6 align-self-center">
+                <div class="col-lg-6 col-sm-7 align-self-center">
                   <div class="offer">
                     <h1 class="offer__title">
-                      LLLLLLLorem  Ipsum is simply
+                      LLorem  Ipsum is simply
                     </h1>
                     <p class="offer__text">
                         dummy text of the<br> printing & typesetting
                     </p>
-                    <a href="#" class="sign-up">
+                    <a href="form.html" class="sign-up">
                       <img src="img/galka.png" class="galka" alt="galka">
                       Sign up now
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <img src="img/left.png" class="left" alt="left">
@@ -100,10 +105,12 @@
     <section id="features" class="features">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4" style="text-align: center">
-            <div class="features">
-              <img src="img/pen.png" class="pen feature__icon" alt="pen">
-              <div class="feature__block">
+          <div class="col-lg-4 col-sm-12" style="text-align: center">
+            <div class="row">
+              <div class="col-lg-12 col-sm-4 features">
+                <img src="img/pen.png" class="pen feature__icon" alt="pen">
+              </div>
+              <div class="col-lg-12 col-sm-8 feature__block">
                 <h2 class="feature__title">
                   Contrary to popular
                 </h2>
@@ -113,10 +120,15 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4" style="text-align: center">
-            <div class="features">
-              <img src="img/computer.png" class="computer feature__icon" alt="computer">
-              <div class="feature__block">
+          <div class="col-sm-12 d-lg-none feature_hr">
+            <hr>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center">
+            <div class="row">
+              <div class="col-lg-12 col-sm-4 features">
+                <img src="img/computer.png" class="computer feature__icon" alt="computer">
+              </div>
+              <div class="col-lg-12 col-sm-8 feature__block">
                 <h2 class="feature__title">
                   Contrary to popular
                 </h2>
@@ -126,10 +138,15 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4" style="text-align: center">
-            <div class="features">
-              <img src="img/pokupki.png" class="pokupki feature__icon" alt="pokupki">
-              <div class="feature__block">
+          <div class="col-sm-12 d-lg-none feature_hr">
+            <hr>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center">
+            <div class="row">
+              <div class="col-lg-12 col-sm-4 features">
+                <img src="img/pokupki.png" class="pokupki feature__icon" alt="pokupki">
+              </div>
+              <div class="col-lg-12 col-sm-8 feature__block">
                 <h2 class="feature__title">
                   Contrary to popular
                 </h2>
@@ -142,6 +159,9 @@
         </div>
       </div>
     </section>
+    <div class="col-sm-12 d-lg-none feature_hr">
+      <hr>
+    </div>
 
     <section id="cart" class="cart">
       <div class="container">
@@ -156,7 +176,7 @@
           <div class="col-lg-6" style="text-align: center;">
             <img src="img/product.jpg" class="product" alt="product">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-sm-10 m-auto">
             <div class="offer2">
               <h1 class="offer2__title">
                 Some Bullet text here
@@ -181,7 +201,7 @@
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row ">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-sm-12">
             <p class="copyright">
               Copyright © 2012-2013 cssauthor.com
             <p>

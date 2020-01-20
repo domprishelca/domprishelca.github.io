@@ -21,8 +21,9 @@ body {
 }
 
 .logo {
-    /* margin-bottom: 23px; */
+    margin-bottom: 20px;
 }
+
 
 .menu__nav ul {
     margin: 0px;
@@ -106,7 +107,11 @@ body {
     margin-top: 20px;
 }
 
+.offer2 {
+	font-family: SegoeWP;
+}
 .offer2__title {
+		font-family: SegoeWPN;
     font-size: 26px;
     color: rgb(111, 113, 115);
     margin-bottom: 18px;
@@ -128,7 +133,117 @@ footer {
 .copyright {
     color: rgb(144, 144, 144);
     font-size: 15px;
-    width: 245pt;
     text-align: center;
     margin: auto;
+		font-family: SegoeWP;
+}
+
+@media screen and (max-width: 992px) {
+	 .container {
+      width: 100%;
+			max-width: none;
+   }
+
+	 .logo {
+		 margin: 10px 0px 25px 35px;
+		 width: 70%;
+	 }
+	 .menu__nav{
+	 	display:none;
+	 }
+	 .sandwich{
+			width: 68%;
+			margin: 10px 25px 25px 15px;
+	  	/* margin-bottom: 15px; */
+	 }
+	 .carousel-control-prev,
+	 .carousel-control-next{
+	   display: none;
+	 }
+
+
+	 .iphone{
+			width: 280px;
+	 }
+	 .firstscreen{
+		 padding: 30px 0 15px;
+		 margin-bottom: 35px;
+	 }
+	 .offer__title{
+		font-size: 47px;
+
+	 }
+	 .offer__text{
+		 	font-size: 35px;
+			margin-bottom: 45px;
+
+
+	 }
+	 .sign-up{
+		 font-size: 50px;
+		 margin: 0px 0 0 0;
+		 font-weight:normal;
+		 padding: 5px 25px 15px 20px;
+
+	 }
+	 .galka{
+		 width:10%;
+		 margin-bottom: 5px;
+	 }
+	 .offer{
+
+	 }
+	 .feature__block{
+		 text-align: left;
+		 align-self: center;
+		 padding-left: 0px;
+
+	 }
+
+	 .feature__title {
+		 font-size: 50px;
+	 }
+	 .feature__text{
+		 font-size: 30px;
+		 line-height: 1.3em;
+	 }
+	 .features {
+		 margin: 0px;
+	 }
+	 .feature__icon{
+		 width: 75%;
+		 margin: 20px 0 15px 10px;
+
+	 }
+	 .feature_hr{
+		 padding: 0px;
+		 color:black;
+
+	 }
+	 .feature_hr hr{
+		  height:0.5px;
+			background-color: #bbb;
+	 }
+	 .cart__title{
+		 font-size: 63px;
+		 margin-bottom:25px;
+	 }
+	 .product{
+		 width:37%;
+	 }
+	 .offer2{
+		 margin-top:10px;
+	 }
+	 .offer2__title{
+		 font-size: 50px;
+	 }
+	 .offer2__text{
+		 font-size: 26px;
+	 }
+	 .copyright{
+		 font-size: 24px;
+		 margin-bottom: 20px;
+	 }
+
+
 }
